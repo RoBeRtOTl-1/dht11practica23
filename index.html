@@ -7,7 +7,7 @@
 		<script>
 			var accessToken = "a645530554d9faa83d798f6c530252052fffdf49";
 			var deviceID = "3f004a000e504b464d323520"
-			var variable = "gradoC";
+			var variable = "humedad";
 			var url = "https://api.particle.io/v1/devices/"+deviceID+"/"+variable;
 
 			//Funcion que recive los datos y el estatus del json
@@ -43,7 +43,7 @@
 				value: 0,
 				min: 0,
 				max: 400,
-				title: "Temperatura (C)"
+				title: "Humedad (%)"
 			});
 			getReading();
 		</script>
